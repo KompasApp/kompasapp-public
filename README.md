@@ -95,4 +95,7 @@ Test your iOS app works through the iPhone simulator provided by XCode with Hell
 ### & 
 ## Good Luck from the Kompas Family!
 
+Email: team@kompasapp.com
+Website: https://www.kompasapp.com
+
 ![Color_Strip](./resources/ColourStrip.jpg)
