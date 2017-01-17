@@ -1,32 +1,98 @@
-# code_challenge
+![Logo](./resources/Text_Logo_Grey.png)
 
-This challenge will test your knowledge of Git, Node/NPM, Express, Javascript, React Native, MongoDB
+# Code Our Challenge
 
-Prerequistes
+This challenge will test your knowledge of Javascript mainly as well as Git, Node, Express, React Native and MongoDB. If you are unfamiliar with any of these technologies, don't panic. There are lots of straight forward tutorials and videos out there to help you get on your way partner!
 
-- Node
-- NPM
-- XCode
+<br>
+#### These are just some of the resources you may want to read
 
-First you will need to make a clone of this repo locally on your machine and create a seperate branched named your name.
+- http://brew.sh/ Recommended package install manager
+- https://nodejs.org/en/ Official Node.js docs
+- http://expressjs.com/ Official Express Library docs
+- https://zellwk.com/blog/crud-express-mongodb/ code a node express server from scratch and demon it!
+- https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm explaining the parts of a node express server
+- https://expressjs.com/en/starter/generator.html create and configure a node express server in a few seconds!
+- https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+- https://github.com/Automattic/mongoose
+- https://blog.xervo.io/getting-started-with-mongoose
 
-Next make an express node application server. see - https://expressjs.com/en/starter/generator.html
 
-Next create an index route '/',
+#### Before beginning, make sure you have installed the following
+```
+- Homebrew
+- Node v6.2.1 (NPM v3.9.3)
+- MongoDB 3.4.0
+- XCode 8.2.1
+
+To manage Node versions: https://github.com/creationix/nvm
+```
+<br>
+## Lets begin!
+
+<br>
+
+- First make a clone of this repo locally on your machine and create a seperate branched named your name.
+
+<br>
+
+- Next create an express application server using the generator. 
+>See - https://expressjs.com/en/starter/generator.html
+
+<br>
+
+- Test your application, `cd express_folder` now run `npm install` to install all the dependiences then `npm start` to start the server on port 3000.
+You should now be able to see the index page if you go to http://localhost:3000/
+
+<br>
+
+- Next create two additional GET routes in routes/index.js,
 '/users' route
 '/places' route
+and one POST route
+'/sent'
 
-Next attach a MongoDB Database to the app server and use Mongoose Library. see - https://blog.xervo.io/mongodb-tutorial
+Restart the server when you make any changes
 
-Next create a sample set of data for both /users and /places so when you hit either one of those endpoints, data is returned from the MongoDB database.
+<br>
 
-Next on the Front-End, create a base react-native iOS project. see - https://facebook.github.io/react-native/docs/getting-started.html#content
+- Next `npm install mongoose --save` to use mongoose. 
+>Follow the instructions for Mongoose to connect a database - https://blog.xervo.io/mongodb-tutorial
 
-Next create two buttons on the landing page of the iOS app, one for users and another for places. When you click a button it should take you to a new screen which lists the data from our back-end.
+<br>
 
-see - https://facebook.github.io/react-native/docs/navigator.html 
-- https://facebook.github.io/react-native/docs/using-a-listview.html
-- https://facebook.github.io/react-native/docs/network.html
-- https://www.youtube.com/watch?v=r5OPRhelEIU
+- Next create a sample set of data for both `/users` and `/places` so when you hit either one of those endpoints, data is returned from the MongoDB database.
 
-When you have got this far, commit all changes and push your own branch up to GitHub.
+A User model should include first name, last name, age, city
+A Place model should include name, city, address, type, rating
+- include atleast 15 data points for each User and Place collections
+
+<br>
+
+- Now with a solid backend structure containing some user and place data we should create a simple react-native iOS project. 
+>See - https://facebook.github.io/react-native/docs/getting-started.html#content
+
+Follow the steps setting up your environment, CLI tools and initialising a project
+
+Test your iOS app works through the iPhone simulator provided by XCode with Hello World
+
+<br>
+
+- Next create two buttons on the index screen of your iOS app, one for users and another for places. When you click a button it should take you to a new screen which listviews the data from our back-end. 
+>See  -https://facebook.github.io/react-native/docs/touchableopacity.html - https://facebook.github.io/react-native/docs/navigator.html - https://facebook.github.io/react-native/docs/using-a-listview.html - https://facebook.github.io/react-native/docs/network.html - https://www.youtube.com/watch?v=r5OPRhelEIU
+
+<br>
+
+- And a button labeled Send which you guessed it, when pressed sends arbituary data to the /sent post route on our server.
+
+<br>
+
+##### When you have got this far, commit all changes and push your own branch up to GitHub.
+
+![Penguin](./resources/penguin.jpg)
+
+#### We look forward to your submission 
+### & 
+## Good Luck from the Kompas Family!
+
+![Color_Strip](./resources/colours.jpg)
