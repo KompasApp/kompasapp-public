@@ -87,7 +87,7 @@ Test your iOS app works through the iPhone simulator provided by XCode with Hell
 
 <br>
 
-##### When you have got this far, commit all changes and push your own branch up to GitHub.
+#### When you have got this far, commit all changes and push your own branch up to GitHub.
 
 ![Penguin](./resources/penguin.jpg)
 
@@ -95,4 +95,4 @@ Test your iOS app works through the iPhone simulator provided by XCode with Hell
 ### & 
 ## Good Luck from the Kompas Family!
 
-![Color_Strip](./resources/colours.jpg)
+![Color_Strip](./resources/ColourStrip.jpg)
