@@ -72,18 +72,22 @@ A Place model should include name, city, address, type, rating
 - Now with a solid backend structure containing some user and place data we should create a simple react-native iOS project. 
 >See - https://facebook.github.io/react-native/docs/getting-started.html#content
 
-Follow the steps setting up your environment, CLI tools and initialising a project
+Follow the steps setting up your environment, CLI tools and initialising a project `react-native init Project_Name`
 
-Test your iOS app works through the iPhone simulator provided by XCode with Hello World
+Test your iOS app works through the iPhone simulator `react-native run-ios` cmd.
 
 <br>
 
 - Next create two buttons on the index screen of your iOS app, one for users and another for places. When you click a button it should take you to a new screen which listviews the data from our back-end. 
->See  -https://facebook.github.io/react-native/docs/touchableopacity.html - https://facebook.github.io/react-native/docs/navigator.html - https://facebook.github.io/react-native/docs/using-a-listview.html - https://facebook.github.io/react-native/docs/network.html - https://www.youtube.com/watch?v=r5OPRhelEIU
+>See  -https://facebook.github.io/react-native/docs/touchableopacity.html - https://facebook.github.io/react-native/docs/navigator.html - https://medium.com/react-native-training/react-native-navigator-navigating-like-a-pro-in-react-native-3cb1b6dc1e30#.71eyfswzj - https://facebook.github.io/react-native/docs/using-a-listview.html - https://facebook.github.io/react-native/docs/network.html - https://www.youtube.com/watch?v=r5OPRhelEIU
 
 <br>
 
 - And a button labeled Send which you guessed it, when pressed sends arbituary data to the /sent post route on our server.
+
+<br>
+
+- *** BONUS *** Create a folder named 'app' in your react-native project root directory, inside 'app' folder create another folder called 'Screens'. Create a UsersScreen.js and PlacesScreen.js inside 'Screens' and export your screen components there. Import them back in inside index.ios.js.  
 
 <br>
 
