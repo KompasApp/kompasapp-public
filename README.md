@@ -79,6 +79,7 @@ Test your iOS app works through the iPhone simulator `react-native run-ios` cmd.
 <br>
 
 - Next create two buttons on the index screen of your iOS app, one for users and another for places. When you click a button it should take you to a new screen which listviews the data from our back-end. 
+
 >See  -https://facebook.github.io/react-native/docs/touchableopacity.html - https://facebook.github.io/react-native/docs/navigator.html - https://medium.com/react-native-training/react-native-navigator-navigating-like-a-pro-in-react-native-3cb1b6dc1e30#.71eyfswzj - https://facebook.github.io/react-native/docs/using-a-listview.html - https://facebook.github.io/react-native/docs/network.html - https://www.youtube.com/watch?v=r5OPRhelEIU
 
 <br>
