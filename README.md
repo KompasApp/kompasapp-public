@@ -98,7 +98,7 @@ Test your iOS app works through the iPhone simulator `react-native run-ios` cmd.
 
 <br>
 
-#### When you have got this far, commit all changes and push your own branch up to GitHub.
+#### When you have got this far, commit all changes and push to your own GitHub page and send us the link.
 
 ![Penguin](./resources/penguin.jpg)
 
