@@ -1,6 +1,6 @@
 ![Logo](./resources/Text_Logo_Grey.png)
 
-# Code Our Challenge
+# Code Our Challenge - Create a server and react native ios app
 
 This challenge will test your knowledge of Javascript mainly as well as Git, Node, Express, React Native and MongoDB. If you are unfamiliar with any of these technologies, don't panic. There are lots of straight forward tutorials and videos out there to help you out.
 
