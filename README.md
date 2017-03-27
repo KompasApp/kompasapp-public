@@ -6,7 +6,7 @@ This challenge will test your knowledge of Javascript mainly as well as Git, Nod
 
 <br>
 
-##### These are just some of the resources you may want to read
+## These are just some of the resources you may want to read
 
 - http://brew.sh/ Recommended package install manager
 - https://nodejs.org/en/ Official Node.js docs
@@ -21,7 +21,7 @@ This challenge will test your knowledge of Javascript mainly as well as Git, Nod
 
 <br>
 
-##### Before beginning, make sure you have installed the following
+## Before beginning, make sure you have installed the following
 ```
 - Homebrew
 - Node v6.2.1 (NPM v3.9.3)
@@ -33,7 +33,7 @@ To manage Node versions: https://github.com/creationix/nvm
 
 <br>
 
-### You will be assessed on: 
+## You will be assessed on: 
 - Well writting and organised code with commenting
 - DRY code
 - Visuals and Designs
