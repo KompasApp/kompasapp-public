@@ -45,7 +45,7 @@ To manage Node versions: https://github.com/creationix/nvm
 
 ## Back-End
 
-- First make a clone of this repo locally on your machine and create a seperate branched named your name.
+- First make a clone of this repo, cd into it.
 
 - Next create an express application server using the generator. 
 ```
