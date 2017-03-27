@@ -39,6 +39,8 @@ To manage Node versions: https://github.com/creationix/nvm
 - Visuals and Designs
 - Completion of the challenge
 
+<br>
+
 # Lets begin!
 
 ## Back-End
